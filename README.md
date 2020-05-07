@@ -17,14 +17,14 @@ To get the Node server running locally:
 - [expressjs](https://github.com/expressjs/express#readme) - The server for handling and routing HTTP requests
 - [body-parser](https://github.com/expressjs/body-parser#readme) - Node.js body parsing middleware.
 - [connect-flash](https://github.com/jaredhanson/connect-flash#readme) - The flash is a special area of the session used for storing messages. Messages are written to the flash and cleared after being displayed to the user. The flash is typically used in combination with redirects, ensuring that the message is available to the next page that is to be rendered.
-- [ejs] (https://github.com/mde/ejs#readme) - Embedded JavaScript templates: USed here for automatic detection for ejs templates for a cleaner code.
-- [express-session] (https://github.com/expressjs/session#readme) - For creating and handling data through sessions
-- [method-override] (https://github.com/expressjs/method-override#readme) - Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
-- [mongodb] (https://github.com/mongodb/node-mongodb-native#readme) - The official MongoDB driver for Node.js. Provides a high-level API on top of mongodb-core that is meant for end users.
+- [ejs](https://github.com/mde/ejs#readme) - Embedded JavaScript templates: USed here for automatic detection for ejs templates for a cleaner code.
+- [express-session](https://github.com/expressjs/session#readme) - For creating and handling data through sessions
+- [method-override](https://github.com/expressjs/method-override#readme) - Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
+- [mongodb](https://github.com/mongodb/node-mongodb-native#readme) - The official MongoDB driver for Node.js. Provides a high-level API on top of mongodb-core that is meant for end users.
 - [mongoose](https://github.com/Automattic/mongoose) - For modeling and mapping MongoDB data to javascript 
 - [passport](https://github.com/jaredhanson/passport) - For handling user authentication
-- [passport-local] (https://github.com/jaredhanson/passport-local#readme) - Passport strategy for authenticating with a username and password.
-- [passport-local-mongoose] (https://github.com/saintedlama/passport-local-mongoose#readme) - Passport-Local Mongoose is a Mongoose plugin that simplifies building username and password login with Passport.
+- [passport-local](https://github.com/jaredhanson/passport-local#readme) - Passport strategy for authenticating with a username and password.
+- [passport-local-mongoose](https://github.com/saintedlama/passport-local-mongoose#readme) - Passport-Local Mongoose is a Mongoose plugin that simplifies building username and password login with Passport.
 
 ## Application Structure
 

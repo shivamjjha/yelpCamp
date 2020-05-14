@@ -10,6 +10,13 @@ To get the Node server running locally:
 - Install MongoDB Community Edition ([instructions](https://docs.mongodb.com/manual/installation/#tutorials)) and run it by executing `mongod`
 - `npm run dev` to start the local server
 
+# Features
+- Stack: MongoDB, Express and NodeJS
+- Implements *CRUD*: `Create`, `Write`, `Update` and `Delete` Operations
+- Implemens *REST* (Representational state transfer) API
+- Authentication: Users can create an account, then add posts, can comment on posts, update and delete comments and posts.
+- Authorization: Only users created the cooment and/or the post has the right to access the `update` route, and hence can modify it.
+
 # Code Overview
 
 ## Dependencies

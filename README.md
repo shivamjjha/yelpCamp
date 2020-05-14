@@ -11,11 +11,12 @@ To get the Node server running locally:
 - `npm run dev` to start the local server
 
 # Features
-- Stack: MongoDB, Express and NodeJS
+- Built on Stack: MongoDB, Express and NodeJS
 - Implements *CRUD*: `Create`, `Write`, `Update` and `Delete` Operations
-- Implemens *REST* (Representational state transfer) API
+- Implementss *REST* (Representational state transfer) API
 - Authentication: Users can create an account, then add posts, can comment on posts, update and delete comments and posts.
 - Authorization: Only users created the cooment and/or the post has the right to access the `update` route, and hence can modify it.
+- Flash messages for success or an error message to user so the user can know what's happened
 
 # Code Overview
 
